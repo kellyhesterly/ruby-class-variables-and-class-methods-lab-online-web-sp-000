@@ -30,8 +30,8 @@ class Song
 
   def self.genre_count
     @@genres.inspect do |genre|
-      hash[genre] = [genre.count]
-
+    hash[genre] = [genre.count]
+  end
   end
 
 
