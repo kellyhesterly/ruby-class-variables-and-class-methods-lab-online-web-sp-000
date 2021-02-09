@@ -32,7 +32,6 @@ class Song
     genre_count = Hash.new
     count = 0
       @@genres.each do |genre|
-        binding.pry
       genre_count[genre] = count
       count += 1
       # genre_count[genre.count]
