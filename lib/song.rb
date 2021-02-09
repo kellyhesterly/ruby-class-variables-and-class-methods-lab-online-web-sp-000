@@ -33,7 +33,7 @@ class Song
     binding.pry
     # @@genres.inspect do |genre|
     # hash[genre] = [genre.count]
-    end
+    # end
   end
 
 
